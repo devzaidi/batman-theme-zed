@@ -1,0 +1,7 @@
+id = "batman"
+name = "The Batman"
+version = "0.0.1"
+schema_version = 1
+authors = ["Hassan Zaidi <devzaidi@gmail.com>"]
+description = "The Batman theme for Zed"
+repository = "https://github.com/devzaidi/batman-theme-zed"
