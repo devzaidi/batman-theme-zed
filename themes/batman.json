@@ -1,5 +1,5 @@
 {
-  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "The Batman",
   "author": "Hassan Zaidi",
   "themes": [
@@ -26,7 +26,7 @@
         "ghost_element.hover": "#363E58",
         "ghost_element.active": "#363E58",
         "ghost_element.selected": "#363E58",
-        "ghost_element.disabled": "#8A280E",
+        "ghost_element.disabled": "#FF7E70",
         "text": "#F0EAE5",
         "text.muted": "#495880",
         "text.placeholder": "#82AAFF",
@@ -66,7 +66,7 @@
         "editor.document_highlight.read_background": "#363E58",
         "editor.document_highlight.write_background": "#363E58",
         "link_text.hover": "#82AAFF",
-        "conflict": "#8A280E",
+        "conflict": "#FF7E70",
         "conflict.background": null,
         "conflict.border": null,
         "created": "#BBFF8C",
@@ -75,27 +75,27 @@
         "deleted": "#FF5370",
         "deleted.background": null,
         "deleted.border": null,
-        "error": "#8A280E",
-        "error.background": null,
-        "error.border": null,
+        "error": "#FF7E70",
+        "error.background": "#0F121A",
+        "error.border": "#FF7E70",
         "hidden": "#495880",
         "hidden.background": null,
         "hidden.border": null,
-        "hint": "#FFDC8C",
+        "hint": "#82AAFF",
         "hint.background": null,
         "hint.border": null,
+        "hint.color": "#82AAFF",
+        "hint.font_style": "italic",
         "ignored": "#495880",
         "ignored.background": null,
         "ignored.border": null,
-        "info": "#73ece5ff",
-        "info.background": null,
-        "info.border": null,
+        "info": "#82AAFF",
+        "info.background": "#0F121A",
+        "info.border": "#82AAFF",
         "modified": "#FFDC8C",
         "modified.background": null,
         "modified.border": null,
-        "predictive": "#FFDC8C",
-        "predictive.background": null,
-        "predictive.border": null,
+        "predictive": "#82AAFF",
         "renamed": null,
         "renamed.background": null,
         "renamed.border": null,
@@ -105,19 +105,53 @@
         "unreachable": null,
         "unreachable.border": null,
         "warning": "#FFDC8C",
-        "warning.background": null,
-        "warning.border": null,
+        "warning.background": "#0F121A",
+        "warning.border": "#FFDC8C",
         "players": [
-          // TODO: Add more players
           {
             "cursor": "#F0EAE5",
             "background": null,
-            "selection": "#363E58"
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#FFDC8C",
+            "background": null,
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#82AAFF",
+            "background": null,
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#FF5370",
+            "background": null,
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#BBFF8C",
+            "background": null,
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#FF7E70",
+            "background": null,
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#B693CA",
+            "background": null,
+            "selection": "#363E5880"
+          },
+          {
+            "cursor": "#495880",
+            "background": null,
+            "selection": "#363E5880"
           }
         ],
         "syntax": {
           "attribute": {
-            "color": "#8A280E",
+            "color": "#FF7E70",
             "font_style": null,
             "font_weight": null
           },
@@ -172,9 +206,9 @@
             "font_weight": null
           },
           "hint": {
-            "color": "#FFDC8C",
-            "font_style": null,
-            "font_weight": 700
+            "color": "#82AAFF",
+            "font_style": "italic",
+            "font_weight": null
           },
           "keyword": {
             "color": "#B693CA",
@@ -207,7 +241,7 @@
             "font_weight": null
           },
           "predictive": {
-            "color": null,
+            "color": "#82AAFF",
             "font_style": "italic",
             "font_weight": null
           },
@@ -262,7 +296,7 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#8A280E",
+            "color": "#FF7E70",
             "font_style": null,
             "font_weight": null
           },
